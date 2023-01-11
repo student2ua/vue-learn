@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.ecwo.ua</groupId>
+    <artifactId>vue-learn</artifactId>
+    <version>21.5</version>
+    <modules>
+        <module>tooltips</module>
+        <module>tabs</module>
+        <module>axios-started</module>
+        <module>vue-form-demo</module>
+        <module>vue-route-example</module>
+        <module>multy_filter_data_table</module>
+    </modules>
+    <packaging>pom</packaging>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.build.target>1.6</project.build.target>
+        <project.build.src>1.6</project.build.src>
+        <!--версия в JBoss 6.1 Final: spec 1.0.0 final -->
+        <jboss.spec.version>1.0.0.Final</jboss.spec.version>
+    </properties>
+
+    <dependencies>
+       
+    </dependencies>
+
+    <dependencyManagement>
+       
+    </dependencyManagement>
+
+</project>
