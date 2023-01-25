@@ -1,21 +1,21 @@
 import Vue from "vue";
 import Router from "vue-router";
-import  DemoForm from "./components/DemoForm"
-import  DemoForm2 from "./components/DemoForm2"
-import HelloWorld from "./components/HelloWorld"
+import  V_validate2 from "./components/V_validate2"
+import  V_validate from "./components/V_validate"
+import Html5ValidationAPI from "./components/Html5ValidationAPI"
 
 Vue.use(Router);
 export default new Router({
     mode: "history",
     routes: [
         {
-            path: "/demoform", name: "demoform", component: DemoForm
+            path: "/vvalidate2", name: "vee-validating", component: V_validate2
         },
         {
-            path: "/demoform2", name: "demoform2", component: DemoForm2
+            path: "/vvalidate", name: "V_validate", component: V_validate
         },
         {
-            path: "/helloWorld", name: "helloWorld", component: HelloWorld
+            path: "/Html5ValidationAPI", name: "Html5ValidationAPI", component: Html5ValidationAPI
         }
     ]
 });

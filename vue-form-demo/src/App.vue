@@ -1,13 +1,13 @@
 <template>
     <div id="app2" class="container-fluid">
-        <img alt="Vue logo" src="./assets/logo.png">
+<!--        <img alt="Vue logo" src="./assets/logo.png">-->
         <div class="site-info">
-            <h3>Router example</h3>
+            <h3>Form validation example</h3>
         </div>
         <nav>
-            <router-link class="btn btn-primary" to="/helloWorld">helloWorld</router-link>
-            <router-link class="btn btn-primary" to="/demoform">demoform</router-link>
-            <router-link class="btn btn-primary" to="/demoform2">demoform2</router-link>
+            <router-link class="btn btn-primary" to="/Html5ValidationAPI">Html 5 + ValidationAPI</router-link>
+            <router-link class="btn btn-primary" to="/vvalidate">Валидация с помощью директивы v-validate</router-link>
+            <router-link class="btn btn-primary" to="/vvalidate2">v-validate v2</router-link>
         </nav>
         <br/>
         <router-view/>
